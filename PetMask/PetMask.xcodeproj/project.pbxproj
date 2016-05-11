@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		23AF83A36556D94A547394A3 /* libPods-PetMask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A948BD86F3D0DC5002E43B6C /* libPods-PetMask.a */; };
+		A0B7061E1CE2BE11005EACB1 /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7061D1CE2BE11005EACB1 /* NetworkManager.m */; };
+		A0B706211CE2BE21005EACB1 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706201CE2BE21005EACB1 /* UserInfo.m */; };
+		A0B706251CE2BE43005EACB1 /* GoodInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706241CE2BE43005EACB1 /* GoodInfo.m */; };
+		A0B706281CE2BE55005EACB1 /* SicknessInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706271CE2BE55005EACB1 /* SicknessInfo.m */; };
+		A0B7062B1CE2BE69005EACB1 /* ProtocolClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7062A1CE2BE69005EACB1 /* ProtocolClass.m */; };
+		A0B7062E1CE2BE7F005EACB1 /* StarRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7062D1CE2BE7F005EACB1 /* StarRanking.m */; };
+		A0B706311CE2BE93005EACB1 /* CategoryGood.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706301CE2BE93005EACB1 /* CategoryGood.m */; };
+		A0B706341CE2BEA9005EACB1 /* CategoryPet.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706331CE2BEA9005EACB1 /* CategoryPet.m */; };
+		A0B706371CE2BEBD005EACB1 /* CategoryCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706361CE2BEBD005EACB1 /* CategoryCourse.m */; };
+		A0B7063A1CE2BED3005EACB1 /* PictureModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706391CE2BED3005EACB1 /* PictureModel.m */; };
+		A0B7063D1CE2BEE9005EACB1 /* MassegeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7063C1CE2BEE9005EACB1 /* MassegeModel.m */; };
+		A0B706401CE2BEFC005EACB1 /* ScrollModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B7063F1CE2BEFC005EACB1 /* ScrollModel.m */; };
+		A0B706431CE2BF50005EACB1 /* TurnsPlay.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706421CE2BF50005EACB1 /* TurnsPlay.m */; };
+		A0B706461CE2BF7F005EACB1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706441CE2BF7F005EACB1 /* AVFoundation.framework */; };
+		A0B706471CE2BF7F005EACB1 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706451CE2BF7F005EACB1 /* AVKit.framework */; };
+		A0B7064A1CE2BF93005EACB1 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706481CE2BF93005EACB1 /* CoreMedia.framework */; };
+		A0B7064B1CE2BF93005EACB1 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706491CE2BF93005EACB1 /* MediaPlayer.framework */; };
+		A0B7064D1CE2BFBB005EACB1 /* ReplayKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7064C1CE2BFBB005EACB1 /* ReplayKit.framework */; };
+		A0B706511CE2BFE9005EACB1 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7064E1CE2BFE9005EACB1 /* CoreAudio.framework */; };
+		A0B706521CE2BFE9005EACB1 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7064F1CE2BFE9005EACB1 /* CoreVideo.framework */; };
+		A0B706531CE2BFE9005EACB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706501CE2BFE9005EACB1 /* QuartzCore.framework */; };
+		A0B706551CE2BFFA005EACB1 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706541CE2BFFA005EACB1 /* CoreLocation.framework */; };
+		A0B706571CE2C003005EACB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706561CE2C003005EACB1 /* UIKit.framework */; };
+		A0B706591CE2C010005EACB1 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B706581CE2C010005EACB1 /* OpenGLES.framework */; };
+		A0B7065B1CE2C020005EACB1 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7065A1CE2C020005EACB1 /* libiconv.tbd */; };
+		A0B7065D1CE2C02C005EACB1 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7065C1CE2C02C005EACB1 /* libstdc++.tbd */; };
+		A0B7065F1CE2C035005EACB1 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A0B7065E1CE2C035005EACB1 /* libz.tbd */; };
+		A0B706631CE2C09A005EACB1 /* MediaPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B706621CE2C09A005EACB1 /* MediaPlayer.m */; };
+		A0D8B74E1CE2BB41004D196B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B74D1CE2BB41004D196B /* main.m */; };
+		A0D8B7511CE2BB41004D196B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B7501CE2BB41004D196B /* AppDelegate.m */; };
+		A0D8B7541CE2BB41004D196B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B7531CE2BB41004D196B /* ViewController.m */; };
+		A0D8B7571CE2BB41004D196B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D8B7551CE2BB41004D196B /* Main.storyboard */; };
+		A0D8B7591CE2BB41004D196B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D8B7581CE2BB41004D196B /* Assets.xcassets */; };
+		A0D8B75C1CE2BB41004D196B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0D8B75A1CE2BB41004D196B /* LaunchScreen.storyboard */; };
+		A0D8B7671CE2BB41004D196B /* PetMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B7661CE2BB41004D196B /* PetMaskTests.m */; };
+		A0D8B7721CE2BB41004D196B /* PetMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D8B7711CE2BB41004D196B /* PetMaskUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0D8B7631CE2BB41004D196B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D8B7411CE2BB41004D196B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D8B7481CE2BB41004D196B;
+			remoteInfo = PetMask;
+		};
+		A0D8B76E1CE2BB41004D196B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0D8B7411CE2BB41004D196B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0D8B7481CE2BB41004D196B;
+			remoteInfo = PetMask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C222D7C393315890C8E7F20 /* Pods-PetMask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetMask.release.xcconfig"; path = "Pods/Target Support Files/Pods-PetMask/Pods-PetMask.release.xcconfig"; sourceTree = "<group>"; };
+		A0B7061C1CE2BE11005EACB1 /* NetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		A0B7061D1CE2BE11005EACB1 /* NetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		A0B7061F1CE2BE21005EACB1 /* UserInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		A0B706201CE2BE21005EACB1 /* UserInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		A0B706231CE2BE43005EACB1 /* GoodInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoodInfo.h; sourceTree = "<group>"; };
+		A0B706241CE2BE43005EACB1 /* GoodInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoodInfo.m; sourceTree = "<group>"; };
+		A0B706261CE2BE55005EACB1 /* SicknessInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SicknessInfo.h; sourceTree = "<group>"; };
+		A0B706271CE2BE55005EACB1 /* SicknessInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SicknessInfo.m; sourceTree = "<group>"; };
+		A0B706291CE2BE69005EACB1 /* ProtocolClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProtocolClass.h; sourceTree = "<group>"; };
+		A0B7062A1CE2BE69005EACB1 /* ProtocolClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocolClass.m; sourceTree = "<group>"; };
+		A0B7062C1CE2BE7F005EACB1 /* StarRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StarRanking.h; sourceTree = "<group>"; };
+		A0B7062D1CE2BE7F005EACB1 /* StarRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StarRanking.m; sourceTree = "<group>"; };
+		A0B7062F1CE2BE93005EACB1 /* CategoryGood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryGood.h; sourceTree = "<group>"; };
+		A0B706301CE2BE93005EACB1 /* CategoryGood.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryGood.m; sourceTree = "<group>"; };
+		A0B706321CE2BEA9005EACB1 /* CategoryPet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPet.h; sourceTree = "<group>"; };
+		A0B706331CE2BEA9005EACB1 /* CategoryPet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPet.m; sourceTree = "<group>"; };
+		A0B706351CE2BEBD005EACB1 /* CategoryCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCourse.h; sourceTree = "<group>"; };
+		A0B706361CE2BEBD005EACB1 /* CategoryCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCourse.m; sourceTree = "<group>"; };
+		A0B706381CE2BED3005EACB1 /* PictureModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureModel.h; sourceTree = "<group>"; };
+		A0B706391CE2BED3005EACB1 /* PictureModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureModel.m; sourceTree = "<group>"; };
+		A0B7063B1CE2BEE9005EACB1 /* MassegeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MassegeModel.h; sourceTree = "<group>"; };
+		A0B7063C1CE2BEE9005EACB1 /* MassegeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MassegeModel.m; sourceTree = "<group>"; };
+		A0B7063E1CE2BEFC005EACB1 /* ScrollModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollModel.h; sourceTree = "<group>"; };
+		A0B7063F1CE2BEFC005EACB1 /* ScrollModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollModel.m; sourceTree = "<group>"; };
+		A0B706411CE2BF50005EACB1 /* TurnsPlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnsPlay.h; sourceTree = "<group>"; };
+		A0B706421CE2BF50005EACB1 /* TurnsPlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnsPlay.m; sourceTree = "<group>"; };
+		A0B706441CE2BF7F005EACB1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A0B706451CE2BF7F005EACB1 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		A0B706481CE2BF93005EACB1 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		A0B706491CE2BF93005EACB1 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A0B7064C1CE2BFBB005EACB1 /* ReplayKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReplayKit.framework; path = System/Library/Frameworks/ReplayKit.framework; sourceTree = SDKROOT; };
+		A0B7064E1CE2BFE9005EACB1 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A0B7064F1CE2BFE9005EACB1 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		A0B706501CE2BFE9005EACB1 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A0B706541CE2BFFA005EACB1 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A0B706561CE2C003005EACB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A0B706581CE2C010005EACB1 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		A0B7065A1CE2C020005EACB1 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		A0B7065C1CE2C02C005EACB1 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		A0B7065E1CE2C035005EACB1 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A0B706601CE2C071005EACB1 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		A0B706611CE2C09A005EACB1 /* MediaPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlayer.h; sourceTree = "<group>"; };
+		A0B706621CE2C09A005EACB1 /* MediaPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlayer.m; sourceTree = "<group>"; };
+		A0D8B7491CE2BB41004D196B /* PetMask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetMask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D8B74D1CE2BB41004D196B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0D8B74F1CE2BB41004D196B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0D8B7501CE2BB41004D196B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0D8B7521CE2BB41004D196B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0D8B7531CE2BB41004D196B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0D8B7561CE2BB41004D196B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0D8B7581CE2BB41004D196B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0D8B75B1CE2BB41004D196B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0D8B75D1CE2BB41004D196B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D8B7621CE2BB41004D196B /* PetMaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetMaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D8B7661CE2BB41004D196B /* PetMaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetMaskTests.m; sourceTree = "<group>"; };
+		A0D8B7681CE2BB41004D196B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D8B76D1CE2BB41004D196B /* PetMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PetMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D8B7711CE2BB41004D196B /* PetMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PetMaskUITests.m; sourceTree = "<group>"; };
+		A0D8B7731CE2BB41004D196B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A948BD86F3D0DC5002E43B6C /* libPods-PetMask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PetMask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C97EF4731E7813A5CE94FC71 /* Pods-PetMask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PetMask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PetMask/Pods-PetMask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0D8B7461CE2BB41004D196B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7065F1CE2C035005EACB1 /* libz.tbd in Frameworks */,
+				A0B7065D1CE2C02C005EACB1 /* libstdc++.tbd in Frameworks */,
+				A0B7065B1CE2C020005EACB1 /* libiconv.tbd in Frameworks */,
+				A0B706591CE2C010005EACB1 /* OpenGLES.framework in Frameworks */,
+				A0B706571CE2C003005EACB1 /* UIKit.framework in Frameworks */,
+				A0B706551CE2BFFA005EACB1 /* CoreLocation.framework in Frameworks */,
+				A0B706511CE2BFE9005EACB1 /* CoreAudio.framework in Frameworks */,
+				A0B706521CE2BFE9005EACB1 /* CoreVideo.framework in Frameworks */,
+				A0B706531CE2BFE9005EACB1 /* QuartzCore.framework in Frameworks */,
+				A0B7064A1CE2BF93005EACB1 /* CoreMedia.framework in Frameworks */,
+				A0B7064D1CE2BFBB005EACB1 /* ReplayKit.framework in Frameworks */,
+				A0B7064B1CE2BF93005EACB1 /* MediaPlayer.framework in Frameworks */,
+				A0B706461CE2BF7F005EACB1 /* AVFoundation.framework in Frameworks */,
+				A0B706471CE2BF7F005EACB1 /* AVKit.framework in Frameworks */,
+				23AF83A36556D94A547394A3 /* libPods-PetMask.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B75F1CE2BB41004D196B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B76A1CE2BB41004D196B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BFF92C852EE4778A48AC41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7065E1CE2C035005EACB1 /* libz.tbd */,
+				A0B7065C1CE2C02C005EACB1 /* libstdc++.tbd */,
+				A0B7065A1CE2C020005EACB1 /* libiconv.tbd */,
+				A0B706581CE2C010005EACB1 /* OpenGLES.framework */,
+				A0B706561CE2C003005EACB1 /* UIKit.framework */,
+				A0B706541CE2BFFA005EACB1 /* CoreLocation.framework */,
+				A0B7064E1CE2BFE9005EACB1 /* CoreAudio.framework */,
+				A0B7064F1CE2BFE9005EACB1 /* CoreVideo.framework */,
+				A0B706501CE2BFE9005EACB1 /* QuartzCore.framework */,
+				A0B7064C1CE2BFBB005EACB1 /* ReplayKit.framework */,
+				A0B706481CE2BF93005EACB1 /* CoreMedia.framework */,
+				A0B706491CE2BF93005EACB1 /* MediaPlayer.framework */,
+				A0B706441CE2BF7F005EACB1 /* AVFoundation.framework */,
+				A0B706451CE2BF7F005EACB1 /* AVKit.framework */,
+				A948BD86F3D0DC5002E43B6C /* libPods-PetMask.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A0B706171CE2BDA3005EACB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		A0B706181CE2BDAC005EACB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0B7061C1CE2BE11005EACB1 /* NetworkManager.h */,
+				A0B7061D1CE2BE11005EACB1 /* NetworkManager.m */,
+				A0B7061F1CE2BE21005EACB1 /* UserInfo.h */,
+				A0B706201CE2BE21005EACB1 /* UserInfo.m */,
+				A0B706231CE2BE43005EACB1 /* GoodInfo.h */,
+				A0B706241CE2BE43005EACB1 /* GoodInfo.m */,
+				A0B706261CE2BE55005EACB1 /* SicknessInfo.h */,
+				A0B706271CE2BE55005EACB1 /* SicknessInfo.m */,
+				A0B706291CE2BE69005EACB1 /* ProtocolClass.h */,
+				A0B7062A1CE2BE69005EACB1 /* ProtocolClass.m */,
+				A0B7062C1CE2BE7F005EACB1 /* StarRanking.h */,
+				A0B7062D1CE2BE7F005EACB1 /* StarRanking.m */,
+				A0B7062F1CE2BE93005EACB1 /* CategoryGood.h */,
+				A0B706301CE2BE93005EACB1 /* CategoryGood.m */,
+				A0B706321CE2BEA9005EACB1 /* CategoryPet.h */,
+				A0B706331CE2BEA9005EACB1 /* CategoryPet.m */,
+				A0B706351CE2BEBD005EACB1 /* CategoryCourse.h */,
+				A0B706361CE2BEBD005EACB1 /* CategoryCourse.m */,
+				A0B706381CE2BED3005EACB1 /* PictureModel.h */,
+				A0B706391CE2BED3005EACB1 /* PictureModel.m */,
+				A0B7063B1CE2BEE9005EACB1 /* MassegeModel.h */,
+				A0B7063C1CE2BEE9005EACB1 /* MassegeModel.m */,
+				A0B7063E1CE2BEFC005EACB1 /* ScrollModel.h */,
+				A0B7063F1CE2BEFC005EACB1 /* ScrollModel.m */,
+				A0B706411CE2BF50005EACB1 /* TurnsPlay.h */,
+				A0B706421CE2BF50005EACB1 /* TurnsPlay.m */,
+				A0B706611CE2C09A005EACB1 /* MediaPlayer.h */,
+				A0B706621CE2C09A005EACB1 /* MediaPlayer.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		A0B706191CE2BDB5005EACB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		A0B7061A1CE2BDC2005EACB1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		A0B7061B1CE2BDCE005EACB1 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				A0B706601CE2C071005EACB1 /* Define.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
+		A0D8B7401CE2BB41004D196B = {
+			isa = PBXGroup;
+			children = (
+				A0B7061B1CE2BDCE005EACB1 /* Define */,
+				A0B7061A1CE2BDC2005EACB1 /* Resource */,
+				A0B706191CE2BDB5005EACB1 /* Controller */,
+				A0B706181CE2BDAC005EACB1 /* Model */,
+				A0B706171CE2BDA3005EACB1 /* View */,
+				A0D8B74B1CE2BB41004D196B /* PetMask */,
+				A0D8B7651CE2BB41004D196B /* PetMaskTests */,
+				A0D8B7701CE2BB41004D196B /* PetMaskUITests */,
+				A0D8B74A1CE2BB41004D196B /* Products */,
+				E7EBA2DFDB42508EE534A9C8 /* Pods */,
+				05BFF92C852EE4778A48AC41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0D8B74A1CE2BB41004D196B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8B7491CE2BB41004D196B /* PetMask.app */,
+				A0D8B7621CE2BB41004D196B /* PetMaskTests.xctest */,
+				A0D8B76D1CE2BB41004D196B /* PetMaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0D8B74B1CE2BB41004D196B /* PetMask */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8B74F1CE2BB41004D196B /* AppDelegate.h */,
+				A0D8B7501CE2BB41004D196B /* AppDelegate.m */,
+				A0D8B7521CE2BB41004D196B /* ViewController.h */,
+				A0D8B7531CE2BB41004D196B /* ViewController.m */,
+				A0D8B7551CE2BB41004D196B /* Main.storyboard */,
+				A0D8B7581CE2BB41004D196B /* Assets.xcassets */,
+				A0D8B75A1CE2BB41004D196B /* LaunchScreen.storyboard */,
+				A0D8B75D1CE2BB41004D196B /* Info.plist */,
+				A0D8B74C1CE2BB41004D196B /* Supporting Files */,
+			);
+			path = PetMask;
+			sourceTree = "<group>";
+		};
+		A0D8B74C1CE2BB41004D196B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8B74D1CE2BB41004D196B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0D8B7651CE2BB41004D196B /* PetMaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8B7661CE2BB41004D196B /* PetMaskTests.m */,
+				A0D8B7681CE2BB41004D196B /* Info.plist */,
+			);
+			path = PetMaskTests;
+			sourceTree = "<group>";
+		};
+		A0D8B7701CE2BB41004D196B /* PetMaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0D8B7711CE2BB41004D196B /* PetMaskUITests.m */,
+				A0D8B7731CE2BB41004D196B /* Info.plist */,
+			);
+			path = PetMaskUITests;
+			sourceTree = "<group>";
+		};
+		E7EBA2DFDB42508EE534A9C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C97EF4731E7813A5CE94FC71 /* Pods-PetMask.debug.xcconfig */,
+				8C222D7C393315890C8E7F20 /* Pods-PetMask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0D8B7481CE2BB41004D196B /* PetMask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D8B7761CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMask" */;
+			buildPhases = (
+				76BC809AA1D60E7C8F2C786F /* Check Pods Manifest.lock */,
+				A0D8B7451CE2BB41004D196B /* Sources */,
+				A0D8B7461CE2BB41004D196B /* Frameworks */,
+				A0D8B7471CE2BB41004D196B /* Resources */,
+				C431057A6005887A4157B79B /* Embed Pods Frameworks */,
+				FE829705F0602837C6491EBE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PetMask;
+			productName = PetMask;
+			productReference = A0D8B7491CE2BB41004D196B /* PetMask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0D8B7611CE2BB41004D196B /* PetMaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D8B7791CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMaskTests" */;
+			buildPhases = (
+				A0D8B75E1CE2BB41004D196B /* Sources */,
+				A0D8B75F1CE2BB41004D196B /* Frameworks */,
+				A0D8B7601CE2BB41004D196B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D8B7641CE2BB41004D196B /* PBXTargetDependency */,
+			);
+			name = PetMaskTests;
+			productName = PetMaskTests;
+			productReference = A0D8B7621CE2BB41004D196B /* PetMaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0D8B76C1CE2BB41004D196B /* PetMaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0D8B77C1CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMaskUITests" */;
+			buildPhases = (
+				A0D8B7691CE2BB41004D196B /* Sources */,
+				A0D8B76A1CE2BB41004D196B /* Frameworks */,
+				A0D8B76B1CE2BB41004D196B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0D8B76F1CE2BB41004D196B /* PBXTargetDependency */,
+			);
+			name = PetMaskUITests;
+			productName = PetMaskUITests;
+			productReference = A0D8B76D1CE2BB41004D196B /* PetMaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0D8B7411CE2BB41004D196B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Luis.J;
+				TargetAttributes = {
+					A0D8B7481CE2BB41004D196B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					A0D8B7611CE2BB41004D196B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A0D8B7481CE2BB41004D196B;
+					};
+					A0D8B76C1CE2BB41004D196B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = A0D8B7481CE2BB41004D196B;
+					};
+				};
+			};
+			buildConfigurationList = A0D8B7441CE2BB41004D196B /* Build configuration list for PBXProject "PetMask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0D8B7401CE2BB41004D196B;
+			productRefGroup = A0D8B74A1CE2BB41004D196B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0D8B7481CE2BB41004D196B /* PetMask */,
+				A0D8B7611CE2BB41004D196B /* PetMaskTests */,
+				A0D8B76C1CE2BB41004D196B /* PetMaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0D8B7471CE2BB41004D196B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D8B75C1CE2BB41004D196B /* LaunchScreen.storyboard in Resources */,
+				A0D8B7591CE2BB41004D196B /* Assets.xcassets in Resources */,
+				A0D8B7571CE2BB41004D196B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B7601CE2BB41004D196B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B76B1CE2BB41004D196B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		76BC809AA1D60E7C8F2C786F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C431057A6005887A4157B79B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetMask/Pods-PetMask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE829705F0602837C6491EBE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PetMask/Pods-PetMask-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0D8B7451CE2BB41004D196B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0B7061E1CE2BE11005EACB1 /* NetworkManager.m in Sources */,
+				A0B7063D1CE2BEE9005EACB1 /* MassegeModel.m in Sources */,
+				A0B7062E1CE2BE7F005EACB1 /* StarRanking.m in Sources */,
+				A0B706341CE2BEA9005EACB1 /* CategoryPet.m in Sources */,
+				A0B706281CE2BE55005EACB1 /* SicknessInfo.m in Sources */,
+				A0B7062B1CE2BE69005EACB1 /* ProtocolClass.m in Sources */,
+				A0D8B7541CE2BB41004D196B /* ViewController.m in Sources */,
+				A0B706371CE2BEBD005EACB1 /* CategoryCourse.m in Sources */,
+				A0B706431CE2BF50005EACB1 /* TurnsPlay.m in Sources */,
+				A0B706401CE2BEFC005EACB1 /* ScrollModel.m in Sources */,
+				A0B706251CE2BE43005EACB1 /* GoodInfo.m in Sources */,
+				A0B706311CE2BE93005EACB1 /* CategoryGood.m in Sources */,
+				A0B7063A1CE2BED3005EACB1 /* PictureModel.m in Sources */,
+				A0D8B7511CE2BB41004D196B /* AppDelegate.m in Sources */,
+				A0B706211CE2BE21005EACB1 /* UserInfo.m in Sources */,
+				A0D8B74E1CE2BB41004D196B /* main.m in Sources */,
+				A0B706631CE2C09A005EACB1 /* MediaPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B75E1CE2BB41004D196B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D8B7671CE2BB41004D196B /* PetMaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D8B7691CE2BB41004D196B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0D8B7721CE2BB41004D196B /* PetMaskUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0D8B7641CE2BB41004D196B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D8B7481CE2BB41004D196B /* PetMask */;
+			targetProxy = A0D8B7631CE2BB41004D196B /* PBXContainerItemProxy */;
+		};
+		A0D8B76F1CE2BB41004D196B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0D8B7481CE2BB41004D196B /* PetMask */;
+			targetProxy = A0D8B76E1CE2BB41004D196B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0D8B7551CE2BB41004D196B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D8B7561CE2BB41004D196B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0D8B75A1CE2BB41004D196B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0D8B75B1CE2BB41004D196B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0D8B7741CE2BB41004D196B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0D8B7751CE2BB41004D196B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0D8B7771CE2BB41004D196B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C97EF4731E7813A5CE94FC71 /* Pods-PetMask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0D8B7781CE2BB41004D196B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C222D7C393315890C8E7F20 /* Pods-PetMask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PetMask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0D8B77A1CE2BB41004D196B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetMask.app/PetMask";
+			};
+			name = Debug;
+		};
+		A0D8B77B1CE2BB41004D196B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PetMaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PetMask.app/PetMask";
+			};
+			name = Release;
+		};
+		A0D8B77D1CE2BB41004D196B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PetMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PetMask;
+			};
+			name = Debug;
+		};
+		A0D8B77E1CE2BB41004D196B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PetMaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pet.PetMaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PetMask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0D8B7441CE2BB41004D196B /* Build configuration list for PBXProject "PetMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D8B7741CE2BB41004D196B /* Debug */,
+				A0D8B7751CE2BB41004D196B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D8B7761CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D8B7771CE2BB41004D196B /* Debug */,
+				A0D8B7781CE2BB41004D196B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D8B7791CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D8B77A1CE2BB41004D196B /* Debug */,
+				A0D8B77B1CE2BB41004D196B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0D8B77C1CE2BB41004D196B /* Build configuration list for PBXNativeTarget "PetMaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0D8B77D1CE2BB41004D196B /* Debug */,
+				A0D8B77E1CE2BB41004D196B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0D8B7411CE2BB41004D196B /* Project object */;
+}
